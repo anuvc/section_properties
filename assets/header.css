@@ -1,0 +1,211 @@
+.container {
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 10rem;
+    min-width:1000px;        /* Suppose you want minimum width of 1000px */
+    width: auto !important;  /* Firefox will set width as auto */
+    width:1000px;  
+}
+
+.introduction {
+    margin-bottom: 1rem;
+    font-family: monospace;
+}
+
+.interval_label {
+    margin-right: 1rem;
+    font-family: monospace;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.interval {
+    margin-right: 0;
+    margin-top: 0.5rem;
+    appearance: textfield;
+    background-color: white;
+    border: 1px slategray solid;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-family: monospace;
+    border-radius: 0px;
+    cursor: text;
+}
+
+.symmetric_switch {
+    display: flex;
+    float: right;
+}
+
+.symmetric_switch .symmetric_switch_label {
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    font-family: monospace;
+}
+
+.symmetric_switch .symmetric_switch_button {
+    margin-top: 1rem;
+}
+
+.cable2d_profile_graph {
+    margin-top: 1rem;
+    border: 1px slategray solid;
+}
+
+.segments_table {
+    margin-top: 1rem;
+}
+
+.table_editing {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.table_editing .add_row_button {
+    padding: 10px 20px;
+    min-width: 150px;
+    font-family: monospace;
+    background-color: aliceblue;
+    border: 1px dodgerblue solid;
+    text-align: center;
+    float: left;
+}
+
+.table_editing .add_row_button:hover {
+    background-color: rgba(30, 143, 255, 0.33);
+}
+
+.table_editing .add_row_button:active {
+    background-color: rgba(30, 143, 255, 0.66);
+  }
+
+.table_editing .clear_table_button {
+    padding: 10px 20px;
+    min-width: 150px;
+    margin-left: 1rem;
+    font-family: monospace;
+    background-color: aliceblue;
+    border: 1px dodgerblue solid;
+    text-align: center;
+    float: left;
+}
+
+.table_editing .clear_table_button:hover {
+    background-color: rgba(30, 143, 255, 0.33);
+}
+
+.table_editing .clear_table_button:active {
+    background-color: rgba(30, 143, 255, 0.66);
+  }
+
+.table_editing .cable_end_coordinates {
+    margin-left: auto; 
+    margin-right: 0;
+    width: 33.3%;
+}
+
+.table_editing .cable_end_coordinates .cable_end_x {
+    appearance: textfield;
+    box-sizing: border-box;
+    width: 50%; 
+    float: left;
+    background-color: white;
+    border: 1px slategray solid;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 13px;
+    font-family: monospace;
+    border-radius: 0px;
+    cursor: text;
+    transition: background-color 0.3s;
+}
+
+.table_editing .cable_end_coordinates .cable_end_y {
+    width: 50%; 
+    box-sizing: border-box;
+    float: right;
+    appearance: textfield;
+    background-color: white;
+    border: 1px slategray solid;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 13px;
+    font-family: monospace;
+    border-radius: 0px;
+    cursor: text;
+    transition: background-color 0.3s;
+}
+
+input.input-active.focused.dash-cell-value{
+    text-align: inherit !important;
+}
+
+input.input-active.unfocused.dash-cell-value{
+    text-align: inherit !important;
+}
+
+.Select-menu-outer {
+    --accent : black;
+}
+
+.Select-arrow {
+	--accent: black;
+} 
+
+.Select-control {
+    --accent : black;
+}
+
+.dash-delete-cell {
+	--accent : black;
+}
+
+.download_csv {
+    margin-top: 1rem;
+    display: flex;
+    float: right;
+    width: 33.3%;
+}
+
+.download_csv .filename {
+    appearance: textfield;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px slategray solid;
+    width: 75%;
+    float: left;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 13px;
+    font-family: monospace;
+    border-radius: 0px;
+    cursor: text;
+    transition: background-color 0.3s;
+}
+
+.download_csv .download_button {
+    margin-left: auto;
+    margin-right: 0;
+    box-sizing: border-box;
+    text-align: center;
+    width: 25%;
+    min-width: 150px;
+    float: right;
+    padding: 10px 20px;
+    font-family: monospace;
+    background-color: aliceblue;
+    border: 1px dodgerblue solid;
+}
+
+.download_csv .download_button:hover {
+    background-color: rgba(30, 143, 255, 0.33);
+}
+
+.download_csv .download_button:active {
+    background-color: rgba(30, 143, 255, 0.66);
+  }

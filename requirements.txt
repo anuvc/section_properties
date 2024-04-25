@@ -1,0 +1,8 @@
+dash==2.16.1
+diskcache==5.6.3
+gaudi==1.0.1
+gaudi.egg==info
+skimage==0.0
+gunicorn
+pandas
+dash-tools

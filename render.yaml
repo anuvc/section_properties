@@ -9,5 +9,4 @@ services:
     # A src/app.py file must exist and contain `server=app.server`
     startCommand: gunicorn --chdir src app:server
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.0
+      - fromGroup: private details

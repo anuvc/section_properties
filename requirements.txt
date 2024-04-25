@@ -3,4 +3,3 @@ diskcache==5.6.3
 gaudi @ git+https://github.com/anuvc/gaudi.git
 gunicorn
 pandas
-dash-tools
